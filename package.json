@@ -1,0 +1,30 @@
+{
+  "name": "algohype_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1535.0",
+    "axios": "^1.6.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "file-type": "^18.7.0",
+    "mime-types": "^2.1.35",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.2",
+    "openai": "^4.24.1",
+    "puppeteer": "^21.6.1",
+    "requests": "^0.3.0",
+    "url-parse": "^1.5.10"
+  }
+}
